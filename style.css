@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-bottom: 10px;
+    padding-left: 17px;
+    color: #20D332;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #f6f6f6;
+}
+
+header img{
+    width: 200px;
+    border-radius: 5px;
+}
+.logo {
+    display: flex; 
+    align-items: center; 
+  
+}
+.logo img{
+    display: inline-block;
+    margin-left: 30px;
+    width: 15%;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+    width: 6.4cm;
+    height: 45px;
+    background-color: #67237E;
+    color: #20D332;
+    border-radius: 15px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 45px; 
+   
+    
+}
+/***** content**************/
+.line-1 {
+    position: fixed;
+    top: 9.5rem;
+    right: 0;
+    width: 100.7vw; 
+    height: 2px; 
+    background-color:#e7e4e4; 
+    
+}
+
+main {
+    
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 20px;
+    
+}
+
+.content ul li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.content ul li a  {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 23px;
+}
+ ul li a  {
+    color: #000000;
+    margin: 0;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 4rem;
+    padding-top: 1rem;
+}
+
+.frist  {
+    justify-content: 0;
+}
+/*.frist li a h1{
+    margin: 0;
+    font-size: 16PX;
+}
+
+.second li a h1{ 
+    margin: 0;
+    font-size: 16PX;
+} */
+.background{
+    background-color:#e7e5e5; 
+    width: 1050px;
+    height: 550px;
+    border-radius: 10px;
+    margin-left: 12cm;
+    margin-top: 5rem;
+}
+
+.Dream-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    background: #000000;
+    color: #fff;
+    padding:  9px 20px;
+    font-size: 18px;
+    border-radius:40px;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 90px;
+    width: 3.5cm;
+    height:2rem;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+
+}
+.Dream-btn:hover {
+    transform: scale(1.1); 
+  }
+
+.info{
+   padding-top: 10px;
+   margin-left: 3cm;
+
+}
+
+.info h3{
+    padding-left: 18rem;
+    font-size: 29px;
+}
+
+.info h4{
+    padding-top: 1px;
+    padding-left: 12rem;
+    color: #b0b0b0;
+    font-size: 29px;
+}
+
+.info img{
+    width: 12%;
+    padding-left: 40%;
+}
